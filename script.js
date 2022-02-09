@@ -5,7 +5,7 @@ var jumping = 0;
 var counter = 0;
 
 hole.addEventListener('animationiteration', () => {
-    var random = -((Math.random()*300)+150);
+    var random = -((Math.random()*500)+200);
     hole.style.top = random + "px";
     counter++;
 });
